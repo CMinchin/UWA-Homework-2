@@ -1,0 +1,47 @@
+:root {
+  --primary: #333940;
+  --secondary: #E867ED;
+  --tertiary: #E0EAE5;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--tertiary);
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--secondary);
+}
+
+.code {
+  border-color: var(--tertiary);
+  border-style: dashed;
+}
+
+.codeTitle {
+  border-style: solid;
+  border-color: var(--tertiary);
+  background-color: var(--primary);
+  border-radius: 10px;
+}
