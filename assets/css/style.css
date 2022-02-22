@@ -1,24 +1,65 @@
 :root {
-  --primary: #333940;
-  --secondary: #E867ED;
-  --tertiary: #E0EAE5;
+  --primary: #31343D;
+  --secondary: #91CBCD;
+  --tertiary: #EDEEF6;
 }
 
 body {
+  background-color: var(--tertiary);
+}
+
+header {
+  position: fixed;
+  width: 100%;
   background-color: var(--primary);
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  padding-left: 0px;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  min-width: 420px;
+  justify-content:space-around;
+}
+
+nav ul li {
+  padding: 2px 5px;
+  border: 0px;
+  border-bottom: 3px var(--secondary) solid ;
+}
+
+nav a {
+  display: inline;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--secondary);
 }
 
 main {
+  padding: 70px 0px 0px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+img #hero{
+  object-fit: nonezz;
+  object-position: 0% 100%;
+}
+
 h1 {
-  text-align: center;
-  color: var(--secondary);
+  text-align: Left;
+  color: var(--primary);
+  background-color: var(--secondary);
+  display:inline-block;
+  padding: 2px 10px 2px 50px;
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin: 10px 0px;
 }
 
 p {
@@ -29,8 +70,6 @@ p {
 h3 {
   text-align: center;
   font-size: 1.5rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
   color: var(--secondary);
 }
 
@@ -44,4 +83,11 @@ h3 {
   border-color: var(--tertiary);
   background-color: var(--primary);
   border-radius: 10px;
+}
+
+footer {
+  /* position: fixed;
+  bottom: 0px;
+  width: 100%; */
+  background-color: var(--primary);
 }
