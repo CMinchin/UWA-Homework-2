@@ -48,7 +48,7 @@ main {
 }
 
 img #hero{
-  object-fit: nonezz;
+  object-fit: none;
   object-position: 0% 100%;
 }
 
