@@ -67,7 +67,33 @@ img #hero{
 }
 
 .content {
-  /* width: 1620px; */
+
+}
+
+article {
+  margin: 5px;
+  border: var(--secondary) solid 5px;
+}
+
+.mainContent {
+  width: 400px;
+}
+
+article div {
+  /* display: inline; */
+  background-color: var(--secondary);
+  /* display: relative; */
+}
+
+section article {
+  
+  flex: 1 0 400px;
+}
+
+section {
+  display: flex;
+  flex: 5;
+  flex-wrap: wrap;
 }
 
 .rBar {
