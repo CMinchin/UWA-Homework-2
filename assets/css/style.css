@@ -76,13 +76,19 @@ article {
 }
 
 article div {
-  /* display: inline; */
+  display: inline-block;
   background-color: var(--secondary);
-  /* display: relative; */
+  position: relative;
+  top: -90px;
+  padding: 5px;
+}
+
+article {
+  height: 1113px;
 }
 
 section article {
-  
+  height: 310px;
   flex: 1 0 400px;
 }
 
