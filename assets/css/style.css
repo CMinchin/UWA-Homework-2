@@ -66,10 +66,6 @@ img #hero{
   padding-right: 5px;
 }
 
-.content {
-
-}
-
 article {
   margin: 5px;
   border: var(--secondary) solid 5px;
@@ -90,6 +86,15 @@ section article {
   flex: 1 0 400px;
 }
 
+article img {
+  width: 100%;
+}
+
+section article img {
+  height: 300px;
+  object-fit: none;
+}
+
 section {
   display: flex;
   flex: 5;
@@ -98,6 +103,17 @@ section {
 
 .rBar {
   height: 100px;
+}
+
+.content ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+
+.content ul li a {
+  text-decoration: none;
+  color: var(--primary);
 }
 
 h1 {
